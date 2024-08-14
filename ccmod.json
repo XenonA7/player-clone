@@ -22,8 +22,8 @@
 	"icons": {
 		"24": "icon.png"
 	},
-	"repository": "",
-	"tags": [],
+	"repository": "https://github.com/XenonA7/player-clone",
+	"tags": ["fun", "combat arts"],
 	"authors": ["eisus", "XenonA7"],
 	"prestart": "prestart.js",
 	"dependencies": {
