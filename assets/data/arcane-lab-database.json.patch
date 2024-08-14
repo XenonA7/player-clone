@@ -1,0 +1,23 @@
+[
+  {
+    "type": "ENTER",
+    "index": "customSkills"
+  },
+  {
+    "type": "INCLUDE",
+    "src": "patches/data/lea-arcane-lab-database.json"
+  },
+  {
+    "type": "IF",
+    "cond": "activeMods.find(e => e.name === 'xmc-hexacast')",
+    "thenSteps": [
+      {
+        "type": "INCLUDE",
+        "src": "patches/data/hexacast-arcane-lab-database.json"
+      }
+    ]
+  },
+  {
+    "type": "EXIT"
+  }
+]

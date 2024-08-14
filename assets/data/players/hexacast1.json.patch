@@ -1,0 +1,6 @@
+[
+  {
+    "type": "INCLUDE",
+    "src": "mod:patches/data/players/custom-skills/hexacast-player-clone.json"
+  }
+]

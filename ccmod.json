@@ -1,0 +1,33 @@
+{
+	"id": "player-clone",
+	"version": "1.0.0",
+	"title": {
+		"en_US": "Player Clone",
+		"de_DE": "Player Clone",
+		"fr_FR": "Player Clone",
+		"zh_CN": "Player Clone",
+		"zh_TW": "Player Clone",
+		"ja_JP": "Player Clone",
+		"ko_KR": "Player Clone"
+	},
+	"description": {
+		"en_US": "Adds a custom skill to spawn a \\c[3]PlayerClone\\c[0] entity.",
+		"de_DE": "Adds a custom skill to spawn a \\c[3]PlayerClone\\c[0] entity.",
+		"fr_FR": "Adds a custom skill to spawn a \\c[3]PlayerClone\\c[0] entity.",
+		"zh_CN": "Adds a custom skill to spawn a \\c[3]PlayerClone\\c[0] entity.",
+		"zh_TW": "Adds a custom skill to spawn a \\c[3]PlayerClone\\c[0] entity.",
+		"ja_JP": "Adds a custom skill to spawn a \\c[3]PlayerClone\\c[0] entity.",
+		"ko_KR": "Adds a custom skill to spawn a \\c[3]PlayerClone\\c[0] entity."
+	},
+	"icons": {
+		"24": "icon.png"
+	},
+	"repository": "",
+	"tags": [],
+	"authors": ["eisus", "XenonA7"],
+	"prestart": "prestart.js",
+	"dependencies": {
+		"arcane-lab": ">=0.1.7",
+		"cc-alybox": ">=1.1.0"
+	}
+}

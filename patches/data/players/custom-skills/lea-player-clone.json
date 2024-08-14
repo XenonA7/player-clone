@@ -1,0 +1,20 @@
+{
+  "proxies": {},
+  "actions": {
+    "NEUTRAL": {
+      "CS_PLAYER_CLONE_ATTACK_SPECIAL1_A": {
+        "name": {
+          "en_US": "\\c[3]Player Clone\\c[0]"
+        },
+        "description": {
+          "en_US": "Spawns a \\c[3]PlayerClone\\c[0] entity at your current position."
+        },
+        "steps": [
+          {
+            "type": "PLAYER_CLONE"
+          }       
+        ]
+      }
+    }
+  }
+}
