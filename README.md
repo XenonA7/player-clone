@@ -9,7 +9,7 @@ Code created by Eisus (https://github.com/2hh8899). Custom skill entry implement
   * https://github.com/2hh8899/ArcaneLab/tree/dev
 
 ### Optional:
-  * https://github.com/XenonA7/xmc-hexacast
+  * https://github.com/XenonA7/xenons-playable-classes
 
 ### Preview:
 ![player-clone-lowRes](https://github.com/user-attachments/assets/c3b91bd3-83c3-425b-b803-d255d0f589ba)
