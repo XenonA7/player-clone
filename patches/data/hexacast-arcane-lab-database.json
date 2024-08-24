@@ -9,7 +9,7 @@
     "element": "NEUTRAL",
     "activeCondition": "player.entity.name == 'Hexacast1' || player.entity.name == 'Hexacast2'",
     "name": {
-      "en_US": "\\i[al-logo]\\i[xenon-logo] \\c[3]Player Clone\\c[0]"
+      "en_US": "\\i[al-logo] \\i[xenon-logo] \\c[3]Player Clone\\c[0]"
     },
     "description": {
       "en_US": "Spawns a \\c[3]PlayerClone\\c[0] entity at your current position."
