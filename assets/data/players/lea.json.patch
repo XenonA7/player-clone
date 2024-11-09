@@ -1,6 +1,6 @@
 [
   {
     "type": "INCLUDE",
-    "src": "mod:patches/data/players/custom-skills/lea-player-clone.json"
+    "src": "mod:patches/data/players/custom-skills/player-clone.json"
   }
 ]

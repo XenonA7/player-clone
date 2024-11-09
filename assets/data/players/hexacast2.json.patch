@@ -1,6 +1,12 @@
 [
   {
-    "type": "INCLUDE",
-    "src": "mod:patches/data/players/custom-skills/hexacast-player-clone.json"
+    "type": "IF",
+    "cond": "activeMods.find(e => e.name === 'xenons-playable-classes')",
+    "thenSteps": [
+      {
+        "type": "INCLUDE",
+        "src": "mod:patches/data/players/custom-skills/player-clone.json"
+      }
+    ]
   }
 ]

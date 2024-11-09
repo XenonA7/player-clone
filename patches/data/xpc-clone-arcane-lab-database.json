@@ -7,7 +7,7 @@
       }
     ],
     "element": "NEUTRAL",
-    "activeCondition": "player.entity.name == 'Hexacast1' || player.entity.name == 'Hexacast2'",
+    "activeCondition": "player.entity.name == 'Lea' || player.entity.name == 'Schneider' || player.entity.name == 'Luke' || player.entity.name == 'triblader2' || player.entity.name == 'triblader3' || player.entity.name == 'triblader4' || player.entity.name == 'triblader5' || player.entity.name == 'triblader-lea' || player.entity.name == 'Hexacast1' || player.entity.name == 'Hexacast2' || player.entity.name == 'Hexacast3'",
     "name": {
       "en_US": "\\i[al-logo] \\i[xenon-logo] \\c[3]Player Clone\\c[0]"
     },

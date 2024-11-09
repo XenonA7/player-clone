@@ -4,8 +4,14 @@
     "index": "customSkills"
   },
   {
-    "type": "INCLUDE",
-    "src": "patches/data/lea-arcane-lab-database.json"
+    "type": "IF",
+    "cond": "!activeMods.find(e => e.name === 'xenons-playable-classes')",
+    "thenSteps": [
+      {
+        "type": "INCLUDE",
+        "src": "patches/data/clone-arcane-lab-database.json"
+      }
+    ]
   },
   {
     "type": "IF",
@@ -13,7 +19,7 @@
     "thenSteps": [
       {
         "type": "INCLUDE",
-        "src": "patches/data/hexacast-arcane-lab-database.json"
+        "src": "patches/data/xpc-clone-arcane-lab-database.json"
       }
     ]
   },

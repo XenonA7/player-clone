@@ -1,3 +1,8 @@
+## 1.1.2 (11/08/2024)
+- Changed custom skill icon color to match XPC cheat skills
+- Removed character-specific database implementation
+- All XPC characters are now supported if XPC is installed
+
 ## 1.1.1 (08/23/2024)
 - Update README.md
 
